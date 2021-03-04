@@ -1,9 +1,7 @@
-shopping = ["bread", "coffee", "curd"]
+ages = [12, 23, 24, 23, 3, 1, 3, 20, 16, 3, 14, 87]
+ages.sort()
 
 
-shopping.append("duck")
+ages.reverse()
 
-
-shopping.insert(2,"coal")
-for item in shopping:
-    print(item)
+print(ages)
