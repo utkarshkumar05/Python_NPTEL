@@ -5,3 +5,5 @@ ages.sort()
 ages.reverse()
 
 print(ages)
+
+print(ages[1:5])
