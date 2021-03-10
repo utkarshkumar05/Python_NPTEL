@@ -3,7 +3,7 @@ from scipy import stats
 Experiments = [500,1000,200,235,546,896,485,375,453,987,654,321]
 Experiments.sort()
 m = stats.trim_mean(Experiments,0.1)
-pint(m)
+print(m)
 
 #Without using stats (Using mean forom statistics)
 from statistics import mean
