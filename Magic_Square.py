@@ -8,8 +8,9 @@ def magic_square(n):
             l.append(0)
         magicSquare.append(l)
         
-    for i in range(n):
-        for j in range(n):
-            print(magicSquare[i][j], end=" ")
-        print()
-magic_square(3)
+    i = n/2
+    j = n-1
+    
+    num = n*n
+    count = 1
+    
