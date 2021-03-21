@@ -1,5 +1,5 @@
 def magic_square(n):
-    
+        
     magicSquare = []
     
     for i in range(n):
@@ -14,17 +14,17 @@ def magic_square(n):
     num = n*n
     count = 1
     while(count <= num):
-        if(i == -1 and j == n):
+        if(i == -1 and j == n):     #Condition 3
             j = n-2
             i = 0
         else:
-            if(j == n):
+            if(j == n):     #Condition 1 for column
                 j = 0
                 
-            if(i < 0):
+            if(i < 0):      #Condition 1 for row
                 i = n-1
             
-        if(magicSquare[i][j] != 0):
+        if(magicSquare[i][j] != 0):     #Condition 2
             j = j-2
             i = i+1
             continue
@@ -42,4 +42,4 @@ def magic_square(n):
             
     print("The sum of row/column/diagonal is " +str(n*(n**2+1)/2))
     
-magic_square(9)
+magic_square(5)
