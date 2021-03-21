@@ -24,4 +24,14 @@ else:
     symbols.remove(card2[pos1]) #Assigning sameSymbol to card1 and card2 at pos1 and pos2 resp.
     #And also assigning any other symbol at pos2 of card1 and pos1 of card2
     
-    
+i = 0
+while(i<5):
+    if(i != pos1 and i != pos2):
+        alpha1 = random.choice(symbols)
+        symbols.remove(alpha1)
+        alpha2 = random.choice(symbols)
+        symbols.remove(alpha2)
+        card1[i] = alpha1
+        card2[i] = alpha2
+    i = i+1 
+#Assigning symbols to other positions other than pos1 and pos2in card1 and card2 resp.
