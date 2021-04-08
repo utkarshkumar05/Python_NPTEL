@@ -33,3 +33,15 @@ j=0
 while(j<50):
     print(birthday[j])
     j =j+1
+    
+#Some more things that can be done using datetime
+
+print(datetime.date.today())
+print(datetime.date.today().strftime("%Y"))
+print(datetime.date.today().strftime("%B"))
+print(datetime.date.today().strftime("%d"))
+print(datetime.date.today().strftime("%W"))
+print(datetime.date.today().strftime("%w"))
+print(datetime.date.today().strftime("%j"))
+print(datetime.date.today().strftime("%A"))
+print(datetime.datetime.now())
