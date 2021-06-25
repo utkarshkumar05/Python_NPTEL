@@ -29,7 +29,7 @@ def play():
     pp2 = 0
     turns = 0
     while(1):
-        #Conputer's task
+        #Computer's task
         picked_word = choose()
         #Creating Question
         qn = jumble(picked_word)
